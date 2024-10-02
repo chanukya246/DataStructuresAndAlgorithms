@@ -1,3 +1,4 @@
+/*
 package com.sports.play;
 
 import java.lang.Math;
@@ -37,4 +38,4 @@ public class AdventOfCode1 {
         System.out.println("Easter Bunny is " +  totalDistance + " blocks away.");
     }
 
-}
+}*/

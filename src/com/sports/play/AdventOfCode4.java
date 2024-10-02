@@ -1,3 +1,4 @@
+/*
 package com.sports.play;
 
 import java.io.IOException;
@@ -58,4 +59,4 @@ public class AdventOfCode4 {
         System.out.println("Part 2 ID: "  + validKeys.stream().map(k -> new Key(k.input.chars().map(c -> c == '-' ? ' ' : (((c - 'a') + k.key) % 26) + 'a').mapToObj(i -> "" + Character.valueOf((char) i)).collect(Collectors.joining()), k)).filter(key -> key.input.equals("northpole object storage")).findFirst().get().key);
     }
 
-}
+}*/
